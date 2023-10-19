@@ -39,6 +39,9 @@ body {
   height: 300vh;
   background-color: #dbdfdf;
 }
+nav{
+  z-index: 99999 !important;
+}
 .login {
   left: 50%;
   top: 50%;
@@ -342,7 +345,7 @@ main {
 .side{
   position: fixed;
   right: 65px;
-  z-index: 999999;
+  z-index: 9999;
   top: 50vh;
   translate: 0 -50%;
   display: flex;
