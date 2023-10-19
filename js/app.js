@@ -1,0 +1,1 @@
+document.querySelectorAll(".copybtn").forEach(e=>e.onclick =()=>alert('تم نسخ النص'));
